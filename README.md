@@ -56,4 +56,7 @@ When setting up the back end of the project first created a normal “out-of-the
 It turns out that it is actually really easy to store arrays with PostgreSQL databases and it plays really well with ActiveRecord models.  able to store the game settings as a hash, which made my whole back end process a breeze (minus trying to figure out how to use PostgreSQL and give my application SUPERUSER status in a Linux environment, which is necessary to enable storing hashes).
 
 
-h
+# DEMO
+![Screenshot (65)](https://user-images.githubusercontent.com/93249038/214485390-e830f343-7da3-4c66-8be1-b2242b0919e6.png)
+
+ 
