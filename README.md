@@ -14,15 +14,18 @@ Both of these cells will die off in the next generation.
 2. Any cell with more than three live neighbors dies, as if by overpopulation.
 
 ![2](https://user-images.githubusercontent.com/93249038/214484667-3a2111ad-6874-4ded-807f-43981abd1181.jpg)
+
 The cell in the middle will die off in the next generation (along with the one above it because of rule 
 
 3. Any cell with either two or three live neighbors lives on to the next generation.
+
 ![3](https://user-images.githubusercontent.com/93249038/214484683-9588c76c-8615-4172-b7ef-a6aaab2fa3a5.jpg)
 The middle cell will live on, while the other two will die off.
 
 4. Any dead cell with exactly three live neighbors will become alive.
 The green cell is currently dead and will come back to life in the next generation.
 Now, what makes Conway’s creation interesting isn’t really the rules of the game themselves, but the complex patterns that start to emerge on the grid based off of these 4 simple rules.
+
 
 ![4](https://user-images.githubusercontent.com/93249038/214484698-40322bda-5494-4c9f-9924-cf45ef46bf4d.jpg)
 
