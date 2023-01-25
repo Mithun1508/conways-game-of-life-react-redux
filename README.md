@@ -6,6 +6,7 @@ I just finished writing the code for the MVP of my final project for Flatiron Sc
 The Game of Life by is a cellular automaton created by mathematician John Conway (who recently passed away due to COVID-19 complications). The consists of a grid of cells that are either in a “live” state or “dead” state. A cell’s state is determined by its surrounding neighbors (also called Moore neighborhood). The rules to the game are simple, and there are only four of them:
 
 1. Any live cell with less than two live neighbors dies, as if by underpopulation.
+
 ![1](https://user-images.githubusercontent.com/93249038/214484612-ba2f202b-8584-4ee1-b7d0-c377ec6b6cc5.jpg)
 
 
@@ -13,16 +14,13 @@ Both of these cells will die off in the next generation.
 2. Any cell with more than three live neighbors dies, as if by overpopulation.
 
 ![2](https://user-images.githubusercontent.com/93249038/214484667-3a2111ad-6874-4ded-807f-43981abd1181.jpg)
+The cell in the middle will die off in the next generation (along with the one above it because of rule 
 
-
-
-The cell in the middle will die off in the next generation (along with the one above it because of rule #1)
 3. Any cell with either two or three live neighbors lives on to the next generation.
 ![3](https://user-images.githubusercontent.com/93249038/214484683-9588c76c-8615-4172-b7ef-a6aaab2fa3a5.jpg)
-
 The middle cell will live on, while the other two will die off.
-4. Any dead cell with exactly three live neighbors will become alive.
 
+4. Any dead cell with exactly three live neighbors will become alive.
 The green cell is currently dead and will come back to life in the next generation.
 Now, what makes Conway’s creation interesting isn’t really the rules of the game themselves, but the complex patterns that start to emerge on the grid based off of these 4 simple rules.
 
