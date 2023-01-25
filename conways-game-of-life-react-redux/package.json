@@ -1,7 +1,7 @@
 {
   "name": "conways-game-of-life",
   "version": "0.1.0",
-  "homepage": "https://mikeyhogarth.github.io/conways-game-of-life-react-redux",
+  "homepage": "https://github.com/Mithun1508/conways-game-of-life-react-redux",
   "private": true,
   "dependencies": {
     "lodash": "^4.17.4",
